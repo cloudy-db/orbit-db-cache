@@ -4,12 +4,14 @@
   "description": "Local cache for orbit-db",
   "main": "index-nodejs.js",
   "browser": "index-browser.js",
+  "react-native": "index-reactnative.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Haad",
   "license": "MIT",
   "dependencies": {
+    "asyncstorage-down": "^4.0.1",
     "level-js": "~2.2.4",
     "leveldown": "^1.9.0",
     "logplease": "^1.2.14",
